@@ -8,8 +8,11 @@ const Contact = () => {
       <form className='flex flex-col w-full max-w-md gap-8 rounded-lg p-6 md:max-w-lg lg:max-w-xl'>
 
         <div className='flex flex-col gap-4'>
+
           <input type="text" placeholder='Your Name' className='rounded-lg border-2 border-teal-400 px-4 py-3 text-lg outline-none transition-all duration-200 hover:bg-teal-50 focus:ring-2 focus:ring-teal-500'/>
+
           <input type="text" placeholder='Your Surname' className='rounded-lg border-2 border-teal-400 px-4 py-3 text-lg outline-none transition-all duration-200 hover:bg-teal-50 focus:ring-2 focus:ring-teal-500'/>
+
           <input type="text" placeholder='Your Email' className='rounded-lg border-2 border-teal-400 px-4 py-3 text-lg outline-none transition-all duration-200 hover:bg-teal-50 focus:ring-2 focus:ring-teal-500'/>
         </div>
 
